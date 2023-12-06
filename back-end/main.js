@@ -4,14 +4,6 @@ const { jogos, account } = require("./routes/routes");
 
 const port = 3001;
 
-/*
-Falta fazer:
-
-  implementação da API para pesquisar nome de jogo
-  implementação da API para fazer cadastro de conta
-  implementação da API para fazer login em conta
-*/
-
 app.use((req, res, next) => {
   res.set({
     "Access-Control-Allow-Origin": "*",
