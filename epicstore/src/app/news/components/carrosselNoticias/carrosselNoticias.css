@@ -1,0 +1,78 @@
+.carrosselNoticias {
+    position: absolute;
+    top: 50rem;
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 10rem;
+}
+
+.arrowLeft {
+    left: 0.5rem;
+}
+
+.arrowRight {
+    left: 90rem;
+}
+
+.noticias {
+    position: absolute;
+    height: 37rem;
+    width: 78rem;
+    top: 2rem;
+    left: 8rem;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.infoNoticias {
+    position: relative;
+    top: 4rem;
+    width: 26rem;
+    height: 23rem;
+    left: 3rem;
+}
+
+.titulo,
+.not,
+.immortals {
+    color: white;
+    text-align: start;
+}
+
+.titulo {
+    font-style: normal;
+}
+
+.not {
+    font-size: 40px;
+}
+
+.freeFire {
+    font-style: 50px bold;
+    font-family: Inter;
+    font-size: 30px;
+    color: #BB4EFF;
+}
+
+.descricao {
+    color: white;
+}
+
+.imgNot {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+details {
+    position: relative;
+    border: none;
+    left: 39rem;
+    top: 6rem;
+    color: white;
+}

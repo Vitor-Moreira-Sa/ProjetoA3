@@ -1,0 +1,41 @@
+"use client";
+
+import "./cabecalho.css";
+
+export function Cabecalho() {
+  return (
+    <div class="cabecalho">
+      <div class="logo">
+        <img src="logo.jpg" alt="logo" class="logo" />
+      </div>
+      <div class="telas">
+        <button id="telaH" type="button">
+          <p class="nameT">Home</p>
+        </button>
+        <button id="telaS" type="button">
+          <p class="nameT">Store</p>
+        </button>
+        <button id="telaN" type="button" onclick="irParaPaginaNews()">
+          <p class="nameT">News</p>
+        </button>
+        <div id="line">
+          <img src="Line 1.jpg" alt="" />
+        </div>
+      </div>
+      <div id="pesquisa">
+        <label for="barraDePesquisa"></label>
+        <input
+          type="text"
+          id="caixaDePesquisa"
+          placeholder="🔍 Pesquise aqui"
+        />
+      </div>
+      <button id="perfil" type="button">
+        <img src="Person.png" alt="perfil" />
+      </button>
+      <button id="carrinho" type="button">
+        <img src="Shopping Bag.png" alt="carrinho" />
+      </button>
+    </div>
+  );
+}

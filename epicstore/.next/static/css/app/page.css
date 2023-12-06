@@ -1,0 +1,955 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/cabecalho/cabecalho.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+#pesquisa {
+  position: absolute;   
+  top: 40px;
+}
+
+#caixaDePesquisa {
+  position: relative;
+  background-color: #242424;
+  border: none;
+  left: 750px;
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+#perfil {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  height: 2rem;
+  width: 1rem;
+  top: 20px;
+  right: 10rem;
+}
+
+#carrinho {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 20px;
+  right: 2rem;
+}
+
+.cabecalho {
+  position: relative;
+  width: 94rem;
+  height: 10rem;
+  background-color: black;
+}
+
+.logo {
+  position: relative;
+  width: 100px;
+  height: 9rem;
+  left: 3rem;
+}
+
+.telas {
+  position: absolute;
+  left: 400px;
+  top: 20px;
+}
+
+#telaH {
+  background-color: black;
+  position: relative;
+  border: none;
+  width: 5rem;
+}
+
+#telaS {
+  background-color: black;
+  position: relative;
+  border: none;
+  left: 10px;
+  width: 5rem;
+}
+
+#telaN {
+  background-color: black;
+  position: relative;
+  left: 20px;
+  width: 5rem;
+  border: none;
+}
+
+.nameT {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/carrossel/carrossel.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.carrossel {
+  position: absolute;
+  top: 60rem;
+  height: 50rem;
+  left: 3rem;
+}
+
+.itensConteiner {
+  height: 50rem;
+}
+
+.carrosselItem {
+  display: table-cell;
+  border-style: solid;
+  padding-left: 50rem;
+  padding: 0px 400px 0px 0px;
+  border-radius: 50px;
+  background: rgba(63, 63, 70, 0.6);
+}
+.carrosselItemInfo {
+  display: flex;
+  width: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  align-self: stretch;
+}
+
+.carrosselItemImage {
+  padding: 30px 30px 30px 30px;
+  border-radius: 50px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.arrowRightImage,
+.arrowLeftImage {
+  width: 40px;
+  height: 40px;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 15rem;
+}
+
+.arrowLeft {
+  left: 0.5rem;
+}
+
+.arrowRight {
+  left: 90rem;
+}
+
+.carrosselItemInfoName {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  left: 17rem;
+  bottom: 13rem;
+}
+
+.carrosselItemDescriptionConteiner {
+  width: auto;
+  height: 9px;
+  left: 20rem;
+  bottom: 15rem;
+  position: relative;
+  color: white;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.carrosselItemInfoCategoryConteiner {
+  display: inline-table;
+  position: relative;
+  border: 1.5px #aeaeb3 solid;
+  border-radius: 5px;
+  width: 5rem;
+  left: 19rem;
+  bottom: 5rem;
+}
+
+.carrosselItemInfoCategory {
+  position: relative;
+  color: white;
+  font-family: Inter;
+  text-align: center;
+  font-size: large;
+}
+
+/*.brawlStars{
+    position: absolute;
+    height: 25rem;
+    width: 37rem;
+    background-color: #3F3F46;
+    border-radius: 50px;
+}
+
+.brawlStars {
+    left: 8rem;
+}
+
+
+.logoBrawl,
+.logoForti {
+    width: 224.52px;
+    height: 319.06px;
+    left: 5rem;
+    padding: 2.5rem;
+    border-radius: 70px;
+}*/
+
+/*.description{
+    bottom: 40px;
+    width: 244px;
+    height: 52px;
+    opacity: 0.50;
+    color: #FCFCFD;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+}*/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/destaque/destaque.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.name {
+    top: 9rem;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 2rem;
+}
+
+.Mof {
+    position: absolute;
+    top: 13rem;
+    right: 4rem;
+}
+
+.categoMof {
+    display: inline-table;
+    position: relative;
+    border: 1.5px #aeaeb3 solid;
+    border-radius: 5px;
+    width: 20rem;
+    left: 2rem;
+    top: 15rem;
+}
+
+.categorias {
+    position: relative;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    font-size: large;
+}
+
+.descrition {
+    position: absolute;
+    top: 24rem;
+    left: 45px;
+    font-family: Inter;
+    opacity: 0.50;
+    color: #FCFCFD;
+}
+
+.infoMof {
+    position: absolute;
+    background-color: #3479E9;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    left: 45px;
+    top: 27rem;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/genders/genders.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.genders {
+    background-color: #000;
+    position: relative;
+    height: 15rem;
+    top: 75rem;
+}
+
+.gender{
+    display: inline-table;
+    position: relative;
+    border-radius: 5px;
+    width: 60px;
+    left: 4rem;
+    padding-right: 12rem;
+}
+
+#buttonGender {
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.imgGender {
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+.nameGender{
+    font-size: 35px;
+    position: absolute;
+    padding: 0px 10px 0px 10px;
+    top: 94px;
+    color: white;
+    left: 3.5rem;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/infos/infosEpic.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.infosEpic {
+    background-color: #000;
+    position: relative;
+    top: 150rem;
+    height: 420px;
+}
+
+.logoFim {
+    position: relative;
+    background-color: transparent;
+    width: 190px;
+    left: 19rem;
+    bottom: 2rem;
+}
+
+.apoieUmCriador {
+    width: 446px;
+    height: 310px;
+    left: 10rem;
+    position: relative;
+    bottom: 12rem;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-family: Kokoro;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 59.40px;
+}
+
+.polTicaDeFanart {
+    left: 39rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+.servicos {
+    left: 70rem;
+    position: relative;
+    bottom: 42rem;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/jogo/jogo.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.jogos {
+    width: 100%;
+}
+
+.name4 {
+    position: relative;
+    font-size: 30px;
+    top: 2rem;
+    text-align: center;
+}
+
+.jogo {
+    position: relative;
+    top: 70rem;
+}
+
+.linhaJogos,
+.linhaJogos2,
+.linhaJogos3,
+.linhaJogos4 {
+    position: absolute;
+    left: 42px;
+}
+
+.linhaJogos {
+    top: 100px;
+}
+
+.linhaJogos2 {
+    top: 350px;
+}
+
+.linhaJogos3 {
+    top: 630px;
+}
+
+.linhaJogos4 {
+    top: 900px;
+}
+
+.colunaJogos,
+.colunaJogos2,
+.colunaJogos3 {
+    position: relative;
+    width: 95rem;
+}
+
+.nameGame {
+    position: absolute;
+    top: 0rem;
+    left: 10rem;
+    font-size: 20px;
+    color: white;
+}
+
+.valor,
+.valorDesc {
+    position: absolute;
+    color: white;
+}
+
+.valor {
+    left: 10rem;
+    top: 5rem;
+}
+
+#compra {
+    position: relative;
+    background-color: #FF891D;
+    border: none;
+    border-radius: 20px;
+    width: 165px;
+    height: 40px;
+    left: 15rem;
+    top: 7rem;
+}
+
+.desconto {
+    position: relative;
+    background-color: #3479E9;
+    border-radius: 3px;
+    width: 43px;
+    height: 18px;
+    left: 10rem;
+    top: 2rem;
+}
+
+.valorTraco {
+    position: absolute;
+    opacity: 0.3;
+    color: #aeaeb3;
+    text-decoration: line-through;
+    top: 4.5rem;
+    left: 13rem;
+}
+
+.valorDesc {
+    color: white;
+    position: absolute;
+    top: 4.5rem;
+    left: 17.2rem;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/components/rodape/rodape.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.rodape {
+    position: relative;
+    top: 148rem;
+    background-color: #7F28B5;
+}
+
+.EpicGames {
+    
+    height: 300px;
+    width: 800px;
+    left: 300px;
+    top: 5rem;
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-size: 12px;
+    font-family: Kokoro;
+    text-transform: uppercase;
+    line-height: 23.40px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/home.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+body {
+    background-color: #121212;
+    height: auto;
+}
+
+/* .nameT {
+    
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+
+#pesquisa {
+    position: absolute;
+    top: 40px;
+}
+
+#caixaDePesquisa {
+    position: relative;
+    background-color: #242424;
+    border: none;
+    left: 750px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#perfil {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+    width: 1rem;
+    top: 20px;
+    right: 10rem;
+}
+
+#carrinho {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 20px;
+    right: 2rem;
+}
+
+.name,
+.name2,
+.name3,
+.name4,
+.name5 {
+    top: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.name {
+    font-size: 50px;
+    position: relative;
+    left: 2rem;
+}
+
+th {
+    padding-bottom: 1.5rem;
+}
+
+.categoMof {
+    display: inline-table;
+    position: relative;
+    border: 1.5px #aeaeb3 solid;
+    border-radius: 5px;
+    width: 13%;
+    left: 2rem;
+    top: 4rem;
+}
+
+.categorias,
+.categorias2,
+.categorias3,
+.categorias4,
+.categorias5 {
+    position: relative;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    font-size: small;
+}
+
+.descrition {
+    position: absolute;
+    top: 23rem;
+    left: 45px;
+    font-family: Inter;
+    opacity: 0.50;
+    color: #FCFCFD;
+}
+
+.infoMof {
+    position: absolute;
+    background-color: #3479E9;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    left: 45px;
+    top: 27rem;
+}
+
+.titleButt {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    bottom: 10px;
+}
+
+.Mof {
+    position: absolute;
+    top: 10.5rem;
+    right: 0rem;
+}
+
+.carrossel {
+    position: absolute;
+    top: 45rem;
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 10rem;
+}
+
+.arrowLeft {
+    left: 0.5rem;
+}
+
+.arrowRight {
+    left: 90rem;
+}
+
+.brawlStars,
+.fortinite {
+    position: absolute;
+    height: 25rem;
+    width: 37rem;
+    background-color: #3F3F46;
+    border-radius: 50px;
+}
+
+.brawlStars {
+    left: 8rem;
+}
+
+.fortinite {
+    left: 50rem;
+}
+
+.logoBrawl,
+.logoForti {
+    width: 224.52px;
+    height: 319.06px;
+    left: 5rem;
+    padding: 2.5rem;
+    border-radius: 70px;
+}
+
+.infoBrawl,
+.infoForti {
+    position: absolute;
+    padding-left: 18rem;
+    top: 1rem;
+}
+
+.name2,
+.name3 {
+    position: relative;
+    font-size: 40px;
+    top: 2rem;
+}
+
+.descricao {
+    width: 256px;
+    height: 53px;
+    left: 20rem;
+    top: 15rem;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.description2 {
+    bottom: 40px;
+    width: 244px;
+    height: 52px;
+    opacity: 0.50;
+    color: #FCFCFD;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.categoBrawl,
+.categoForti {
+    display: inline-table;
+    position: relative;
+    border: 1.5px #aeaeb3 solid;
+    border-radius: 5px;
+    width: 13%;
+    left: 1rem;
+    top: 1rem;
+}
+
+.genders {
+    background-color: #000;
+    position: relative;
+    top: 60rem;
+}
+
+.gender,
+.gender2,
+.gender3,
+.gender4,
+.gender5 {
+    display: inline-table;
+    position: relative;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.gender {
+    left: 3rem;
+}
+
+.gender2 {
+    left: 5rem;
+}
+
+.gender3 {
+    left: 8rem;
+}
+
+.gender4 {
+    left: 10rem;
+}
+
+.gender5 {
+    left: 13rem;
+}
+
+#buttonGender {
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.imgGender {
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+.nameGender,
+.nameGender2 {
+    font-size: 35px;
+    position: absolute;
+    top: 94px;
+    color: white;
+}
+
+.nameGender {
+    left: 3.5rem;
+}
+
+.nameGender2 {
+    left: 5rem;
+}
+
+.jogos {
+    width: 100%;
+}
+
+.name4 {
+    position: relative;
+    font-size: 30px;
+    top: 2rem;
+    text-align: center;
+}
+
+.jogo {
+    position: relative;
+    top: 70rem;
+}
+
+.linhaJogos,
+.linhaJogos2,
+.linhaJogos3,
+.linhaJogos4 {
+    position: absolute;
+    left: 42px;
+}
+
+.linhaJogos {
+    top: 100px;
+}
+
+.linhaJogos2 {
+    top: 350px;
+}
+
+.linhaJogos3 {
+    top: 630px;
+}
+
+.linhaJogos4 {
+    top: 900px;
+}
+
+.colunaJogos,
+.colunaJogos2,
+.colunaJogos3 {
+    position: relative;
+    width: 95rem;
+}
+
+.nameGame {
+    position: absolute;
+    top: 0rem;
+    left: 10rem;
+    font-size: 20px;
+    color: white;
+}
+
+.epic {
+    position: absolute;
+    background-color: #2B2B2B;
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    left: 10rem;
+    top: 3rem;
+}
+
+.valor,
+.valorDesc {
+    position: absolute;
+    color: white;
+}
+
+.valor {
+    left: 10rem;
+    top: 5rem;
+}
+
+#compra {
+    position: relative;
+    background-color: #FF891D;
+    border: none;
+    border-radius: 20px;
+    width: 165px;
+    height: 40px;
+    left: 15rem;
+    top: 7rem;
+}
+
+.desconto {
+    position: relative;
+    background-color: #3479E9;
+    border-radius: 3px;
+    width: 43px;
+    height: 18px;
+    left: 10rem;
+    top: 2rem;
+}
+
+.valorTraco {
+    position: absolute;
+    opacity: 0.3;
+    color: #aeaeb3;
+    text-decoration: line-through;
+    top: 4.5rem;
+    left: 13rem;
+}
+
+.valorDesc {
+    color: white;
+    position: absolute;
+    top: 4.5rem;
+    left: 17.2rem;
+}
+
+.logoGame {
+    width: 130px;
+    height: 170px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0rem;
+}
+
+.infosEpic {
+    background-color: #000;
+    position: relative;
+    top: 150rem;
+    height: 440px;
+}
+
+.apoieUmCriador {
+    width: 446px;
+    height: 310px;
+    left: 10rem;
+    position: relative;
+    top: 3rem;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-family: Kokoro;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 59.40px;
+}
+
+.polTicaDeFanart {
+    left: 39rem;
+    position: relative;
+    bottom: 7rem;
+}
+
+.servicos {
+    left: 70rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+.logoFim {
+    position: relative;
+    background-color: transparent;
+    width: 190px;
+    left: 34rem;
+    bottom: 2rem;
+}
+
+.rodape {
+    position: relative;
+    top: 148rem;
+    background-color: #7F28B5;
+} 
+
+.EpicGames {
+    height: 300px;
+    width: 800px;
+    left: 330px;
+    top: 5rem;
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-size: 12px;
+    font-family: Kokoro;
+    text-transform: uppercase;
+    line-height: 23.40px;
+}
+
+*/

@@ -1,0 +1,40 @@
+
+.cabecalho {
+    position: relative;
+    width: auto;
+    height: 10rem;
+    background-color: black;
+}
+#telaN {
+    background-color: black;
+    position: relative;
+    left: 20px;
+    width: 5rem;
+}
+.logo {
+    position: absolute;
+    background-color: transparent;
+    width: 300px;
+    left: 5rem;
+}
+
+.telas {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+#telaH {
+    background-color: black;
+    position: relative;
+    border: none;
+    width: 5rem;
+}
+
+#telaS {
+    background-color: black;
+    position: relative;
+    border: none;
+    left: 10px;
+    width: 5rem;
+}

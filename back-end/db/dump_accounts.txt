@@ -1,0 +1,1 @@
+CREATE TABLE accounts(nickname text, password text, email text);

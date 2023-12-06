@@ -1,0 +1,43 @@
+.infosEpic {
+    background-color: #000;
+    position: relative;
+    top: 80rem;
+    height: 440px;
+}
+
+.logoFim {
+    position: relative;
+    background-color: transparent;
+    width: 190px;
+    left: 19rem;
+    bottom: 2rem;
+}
+
+.apoieUmCriador {
+    width: 446px;
+    height: 310px;
+    left: 10rem;
+    position: relative;
+    bottom: 12rem;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-family: Kokoro;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 59.40px;
+}
+
+.polTicaDeFanart {
+    left: 39rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+.servicos {
+    left: 70rem;
+    position: relative;
+    bottom: 38rem;
+}

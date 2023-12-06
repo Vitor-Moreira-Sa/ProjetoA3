@@ -1,0 +1,81 @@
+#pesquisa {
+    position: absolute;
+    top: 40px;
+}
+
+#caixaDePesquisa {
+    position: relative;
+    background-color: #242424;
+    border: none;
+    left: 750px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#perfil {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+    width: 1rem;
+    top: 20px;
+    right: 10rem;
+}
+
+#carrinho {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 20px;
+    right: 2rem;
+}
+
+.cabecalho {
+    position: relative;
+    width: 94rem;
+    height: 10rem;
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 9rem;
+    left: 3rem;
+}
+
+.telas {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+#telaH {
+    background-color: black;
+    position: relative;
+    border: none;
+    width: 5rem;
+}
+
+#telaS {
+    background-color: black;
+    position: relative;
+    border: none;
+    left: 10px;
+    width: 5rem;
+}
+
+#telaN {
+    background-color: black;
+    position: relative;
+    left: 20px;
+    width: 5rem;
+    border: none;
+}
+
+.nameT {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+}

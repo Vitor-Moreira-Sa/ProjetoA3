@@ -1,0 +1,45 @@
+.imgImmortals {
+    position: relative;
+    border-radius: 13px;
+    top: 5rem;
+    left: 2rem;
+
+}
+
+.jogoFamoso {
+    position: relative;
+    height: 39rem;
+    width: 78rem;
+    top: 70rem;
+    left: 8rem;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.famoso {
+    position: absolute;
+    top: 4rem;
+    left: 42rem;
+}
+
+.immortals {
+    font-size: 50px;
+}
+
+.genero {
+    font-style: 50px bold;
+    font-family: Inter;
+    font-size: 30px;
+    color: #BB4EFF;
+}
+
+.generos {
+    position: absolute;
+    width: 30rem;
+}
+
+.descricaoImmortals {
+    position: absolute;
+    top: 20rem;
+    color: white;
+}

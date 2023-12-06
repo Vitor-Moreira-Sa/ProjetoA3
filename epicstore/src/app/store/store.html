@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="store.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <div class="logo">
+        <img src="logo.jpg" alt="" />
+      </div>
+      <div class="telas">
+        <button id="telaH" type="button">
+          <p class="nameT">Home</p>
+        </button>
+        <button id="telaS" type="button">
+          <p class="nameT">Store</p>
+        </button>
+        <button id="telaN" type="button" onclick="irParaPaginaNews()">
+          <p class="nameT">News</p>
+        </button>
+        <div id="line-store">
+          <img src="Line 1.jpg" alt="" />
+        </div>
+      </div>
+      <div id="pesquisa">
+        <label for="barraDePesquisa"></label>
+        <input
+          type="text"
+          id="caixaDePesquisa"
+          placeholder="🔍 Pesquise aqui"
+        />
+      </div>
+      <button id="perfil" type="button">
+        <img src="Person.png" alt="perfil" />
+      </button>
+      <button id="carrinho" type="button">
+        <img src="Shopping Bag.png" alt="carrinho" />
+      </button>
+    </div>
+
+    <div class="compra">
+      <div class="pai" style="position: relative">
+        <img src="Cover.jpg" alt="" class="cover" />
+        <div>
+          <img src="Rectangle 16.png" alt="" style="position: absolute" />
+        </div>
+        <table class="tableCatego">
+          <tr>
+            <td class="categoAlan">
+              <p class="categorias">Ação</p>
+            </td>
+            <td class="categoAlan">
+              <p class="categorias">Novo</p>
+            </td>
+            <td class="categoAlan">
+              <p class="categorias">Free <br />Style</p>
+            </td>
+            <td class="categoAlan">
+              <p class="categorias">MAC</p>
+            </td>
+            <td class="categoAlan">
+              <p class="categorias">15.7 <br />PC</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="catalogo">
+        <table class="games">
+          <tr>
+            <td>
+              <img src="alla-wake.jpg" alt="" class="fotos" />
+            </td>
+            <td>
+              <p class="nomes">Alan Wake 2</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="ac-mirage.jpg" alt="" class="fotos" />
+            </td>
+            <td>
+              <p class="nomes">Assassin's Creed Mirage</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="genshin-impact.jpg" alt="" class="fotos" />
+            </td>
+            <td>
+              <p class="nomes">Genshin Impact</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="footbaal-manager.jpg" alt="" class="fotos" />
+            </td>
+            <td>
+              <p class="nomes">Football Manager 2024</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="sonic-superstars.jpg" alt="" class="fotos" />
+            </td>
+            <td>
+              <p class="nomes">Sonic Superstars</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="recomendados">
+      <table class="inforRecomendados">
+        <tr>
+          <th>
+            <p class="recomendo">O MAIS RECOMENDADO</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <b class="batalhas">
+              Batalhas épicas de <br />
+              cartas em tempo real
+            </b>
+          </td>
+        </tr>
+        <tr class="generos">
+          <td>
+            <p class="genero">Aventura</p>
+          </td>
+          <td>
+            <p class="genero">Estrategia</p>
+          </td>
+          <td>
+            <p class="genero">Batalha</p>
+          </td>
+        </tr>
+        <tr class="descricaoClash">
+          <td>
+            <p class="descricao">
+              Batalhas épicas de cartas em tempo real Clash Royale é um jogo
+              multijogador em tempo real estrelado pelos Royales, seus
+              personagens favoritos do Clash e muito, muito mais. Colete e
+              atualize dezenas de cartas com as tropas, feitiços e defesas do
+              Clash of Clans que você conhece e adora, bem como os Royales:
+              Príncipes, Cavaleiros, Bebês Dragões e muito mais.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" id="saiba">Saiba Mais</button>
+          </td>
+        </tr>
+      </table>
+      <img src="clash-royale.jpg" alt="" class="clashRoyale" />
+    </div>
+
+    <div class="jogo">
+      <table class="jogos">
+        <tr>
+          <th colspan="2" class="name4">Novidades</th>
+          <th colspan="2" class="name4">Mais Jogados</th>
+          <th colspan="2" class="name4">Em Prefere</th>
+        </tr>
+        <tr class="linhaJogos">
+          <td class="colunaJogos">
+            <img src="classic-car-simulator.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              1º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Classic Car Simulator Car Driving</p>
+            </div>
+            <div class="epic">
+              <p>Agora na Epic</p>
+            </div>
+            <p class="valor">R$ 0,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos2">
+            <img src="DeadCells.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              5º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Dead Cells</p>
+            </div>
+            <p class="valor">R$ 24,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos3">
+            <img src="the-lord-of-the-rings.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              9º Lugar
+            </p>
+            <div class="nameGame">
+              <p>The Lord Of The Rings<br />Return To Moria</p>
+            </div>
+            <p class="valor">R$ 39,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+        </tr>
+        <tr class="linhaJogos2">
+          <td class="colunaJogos">
+            <img src="there-is-no-game.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              2º Lugar
+            </p>
+            <div class="nameGame">
+              <p>There Is No Game - Wrong…</p>
+            </div>
+            <div class="epic">
+              <p>Agora na Epic</p>
+            </div>
+            <button type="button" id="compra">ADD To Card</button>
+            <div class="desconto">
+              <p>-10%</p>
+            </div>
+            <p class="valorTraco">R$ 12,99</p>
+            <p class="valorDesc">R$ 11,69</p>
+          </td>
+          <td class="colunaJogos2">
+            <img src="Ooblets.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              6º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Ooblets</p>
+            </div>
+            <p class="valor">R$ 29,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos3">
+            <img src="AlanWake2.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              10º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Alan Wake 2</p>
+            </div>
+            <p class="valor">R$ 49,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+        </tr>
+        <tr class="linhaJogos3">
+          <td class="colunaJogos">
+            <img src="tintin-reporter.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              3º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Tintin Reporter - Cigars of the…</p>
+            </div>
+            <div class="epic">
+              <p>Agora na Epic</p>
+            </div>
+            <p class="valor">R$ 39,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos2">
+            <img src="RimWorld.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              7º Lugar
+            </p>
+            <div class="nameGame">
+              <p>RimWorld</p>
+            </div>
+            <p class="valor">R$ 34,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos3">
+            <img src="assassins-creed.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              11º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Assassins Creed<br />VALHALLA</p>
+            </div>
+            <p class="valor">R$ 59,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+        </tr>
+        <tr class="linhaJogos4">
+          <td class="colunaJogos">
+            <img src="asterix-and-obelix.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              4º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Asterix and Obelix Slap Them All 2</p>
+            </div>
+            <p class="valor">R$ 24,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos2">
+            <img src="Recipe for Disaster.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              8º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Recipe For Disaster</p>
+            </div>
+            <p class="valor">R$ 16,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+          <td class="colunaJogos3">
+            <img src="GTAV.jpg" alt="" class="logoGame" />
+            <p
+              class="posicao"
+              style="position: relative; color: white; left: 10rem"
+            >
+              12º Lugar
+            </p>
+            <div class="nameGame">
+              <p>Grand Theft Auto 5</p>
+            </div>
+            <p class="valor">R$ 16,99</p>
+            <button type="button" id="compra">ADD To Card</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="infosEpic">
+      <div class="logo">
+        <img src="logo.jpg" alt="" class="logoFim" />
+      </div>
+      <div class="apoieUmCriador">
+        <span>
+          <p>
+            Recursos<br />
+            Apoie-um-Criador<br />
+            Distribuir na Epic Games<br />
+            Carreiras<br />
+            Empresa
+          </p>
+        </span>
+      </div>
+      <div class="polTicaDeFanart">
+        <span>
+          <p>
+            Política de Fanart<br />
+            UX Research<br />
+            EULA da Loja <br />
+          </p>
+        </span>
+      </div>
+      <div class="servicos">
+        <span>
+          <p>
+            Serviços On-line<br />
+            Regras da comunidade<br />
+            Epic Newsroom<br />
+          </p>
+        </span>
+      </div>
+    </div>
+    <div class="rodape">
+      <div class="EpicGames">
+        <p>
+          © 2023, Epic Games, Inc. Todos os direitos reservados. Epic, Epic
+          Games, o logotipo da Epic Games, Fortnite,<br />
+          o logotipo do Fortnite, Unreal, Unreal Engine, o logotipo do Unreal
+          Engine, Unreal Tournament e o logotipo <br />
+          do Unreal Tournament são marcas comerciais ou registradas da Epic
+          Games, Inc. nos Estados Unidos da América <br />
+          e em outros lugares. Outras marcas e nomes de produtos são marcas
+          registradas de seus respectivos donos.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

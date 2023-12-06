@@ -1,0 +1,35 @@
+.genders {
+    background-color: #000;
+    position: relative;
+    height: 15rem;
+    top: 75rem;
+}
+
+.gender{
+    display: inline-table;
+    position: relative;
+    border-radius: 5px;
+    width: 60px;
+    left: 4rem;
+    padding-right: 12rem;
+}
+
+#buttonGender {
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.imgGender {
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+.nameGender{
+    font-size: 35px;
+    position: absolute;
+    padding: 0px 10px 0px 10px;
+    top: 94px;
+    color: white;
+    left: 3.5rem;
+}

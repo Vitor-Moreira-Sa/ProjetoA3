@@ -1,0 +1,29 @@
+CREATE TABLE Jogos (
+    id INTEGER PRIMARY KEY,
+    nome TEXT NOT NULL,
+    preco REAL,
+    descricao TEXT,
+    requisitos_minimos TEXT,
+    requisitos_recomendados TEXT
+, genero TEXT);
+
+INSERT INTO Jogos VALUES(1,'The Adventure Quest',49.99000000000000198,'Uma emocionante jornada em um mundo de fantasia.','CPU 2.0 GHz, 4 GB RAM, GPU dedicada com 1 GB VRAM','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Fantasia');
+INSERT INTO Jogos VALUES(2,'Galactic Explorer',29.98999999999999844,'Explore a vastidão do espaço e descubra novos planetas.','CPU 1.5 GHz, 2 GB RAM, Placa de vídeo integrada','CPU 2.5 GHz, 4 GB RAM, Placa de vídeo dedicada com 1 GB VRAM','Espacial');
+INSERT INTO Jogos VALUES(3,'Kingdoms of Legend',69.98999999999999489,'Construa seu próprio reino e participe de batalhas épicas.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Fantasia');
+INSERT INTO Jogos VALUES(4,'Cybernetic Onslaught',19.98999999999999843,'Enfrente inimigos cibernéticos em um futuro distópico.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Aventura');
+INSERT INTO Jogos VALUES(5,'Mystical Realms',59.99000000000000198,'Descubra segredos mágicos em um mundo repleto de mistérios.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Fantasia');
+INSERT INTO Jogos VALUES(6,'Survival Outpost',39.99000000000000198,'Sobreviva em um mundo pós-apocalíptico cheio de perigos.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Espacial');
+INSERT INTO Jogos VALUES(7,'Epic Battles Warfront',79.98999999999999489,'Participe de batalhas massivas em um campo de guerra épico.','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','CPU 4.5 GHz, 16 GB RAM, GPU dedicada com 6 GB VRAM','Ação');
+INSERT INTO Jogos VALUES(8,'Stealth Ops Infiltration',24.98999999999999844,'Realize missões furtivas em ambientes complexos.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Ação');
+INSERT INTO Jogos VALUES(9,'Fantasy Quest IX',54.99000000000000198,'Embarque em uma jornada fantástica em busca de artefatos mágicos.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Fantasia');
+INSERT INTO Jogos VALUES(10,'Astronaut Simulator',34.99000000000000198,'Experimente a vida de um astronauta e explore o cosmos.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.5 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Espacial');
+INSERT INTO Jogos VALUES(11,'Mega Racing Championship',44.99000000000000198,'Participe de corridas emocionantes em pistas de todo o mundo.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Corrida');
+INSERT INTO Jogos VALUES(12,'Underground Heist',64.98999999999999489,'Planeje e execute assaltos ousados em uma cidade em constante evolução.','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','CPU 4.5 GHz, 16 GB RAM, GPU dedicada com 6 GB VRAM','Ação');
+INSERT INTO Jogos VALUES(13,'Time Traveler Chronicles',74.98999999999999489,'Explore diferentes épocas históricas e desvende mistérios temporais.','CPU 3.5 GHz, 10 GB RAM, GPU dedicada com 3 GB VRAM','CPU 5.0 GHz, 16 GB RAM, GPU dedicada com 6 GB VRAM','Aventura');
+INSERT INTO Jogos VALUES(14,'Virtual Reality Odyssey',59.99000000000000198,'Viva aventuras incríveis em mundos virtuais envolventes.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Aventura');
+INSERT INTO Jogos VALUES(15,'Legends of Mythos',49.99000000000000198,'Entre em batalhas míticas e descubra segredos ancestrais.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Fantasia');
+INSERT INTO Jogos VALUES(16,'Robot Rampage',29.98999999999999844,'Lute contra hordas de robôs em uma cidade futurista.','CPU 1.5 GHz, 2 GB RAM, Placa de vídeo integrada','CPU 2.5 GHz, 4 GB RAM, Placa de vídeo dedicada com 1 GB VRAM','Espacial');
+INSERT INTO Jogos VALUES(17,'Magic Academy',39.99000000000000198,'Estude magia e enfrente desafios mágicos em uma academia especial.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Fantasia');
+INSERT INTO Jogos VALUES(18,'Pirates Treasure Hunt',44.99000000000000198,'Embarque em uma busca por tesouros escondidos nos sete mares.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Aventura');
+INSERT INTO Jogos VALUES(19,'Superhero Showdown',54.99000000000000198,'Assuma o papel de um super-herói e combata vilões poderosos.','CPU 2.5 GHz, 6 GB RAM, GPU dedicada com 1.5 GB VRAM','CPU 4.0 GHz, 12 GB RAM, GPU dedicada com 4 GB VRAM','Ação');
+INSERT INTO Jogos VALUES(20,'Haunted Mansion Mystery',34.99000000000000198,'Explore uma mansão assombrada e resolva mistérios sombrios.','CPU 2.0 GHz, 4 GB RAM, Placa de vídeo integrada','CPU 3.0 GHz, 8 GB RAM, GPU dedicada com 2 GB VRAM','Fantasia');

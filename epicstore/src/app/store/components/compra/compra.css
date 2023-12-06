@@ -1,0 +1,55 @@
+.compra {
+    position: relative;
+    top: 12rem;
+    background-color: #212121;
+}
+
+.cover {
+    position: absolute;
+    left: 10rem;
+    border-radius: 40px;
+}
+
+.tableCatego {
+    position: absolute;
+    padding-left: 18rem;
+    top: 27rem;
+}
+
+.categorias {
+    position: relative;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    font-size: small;
+}
+
+.categoAlan {
+    display: inline-table;
+    position: relative;
+    border: 1.5px #aeaeb3 solid;
+    border-radius: 5px;
+    width: 13%;
+    left: 1rem;
+    top: 1rem;
+}
+
+.catalogo {
+    position: absolute;
+    width: 150rem;
+    left: 74rem;
+}
+
+.games {
+    height: 35rem;
+}
+
+.nomes {
+    width: 50rem;
+    left: 10rem;
+    color: white;
+}
+
+.fotos {
+    border-radius: 10px;
+}

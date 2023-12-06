@@ -1,0 +1,128 @@
+.carrossel {
+  position: absolute;
+  top: 60rem;
+  height: 50rem;
+  left: 3rem;
+}
+
+.itensConteiner {
+  height: 50rem;
+}
+
+.carrosselItem {
+  display: table-cell;
+  border-style: solid;
+  padding-left: 50rem;
+  padding: 0px 400px 0px 0px;
+  border-radius: 50px;
+  background: rgba(63, 63, 70, 0.6);
+}
+.carrosselItemInfo {
+  display: flex;
+  width: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  align-self: stretch;
+}
+
+.carrosselItemImage {
+  padding: 30px 30px 30px 30px;
+  border-radius: 50px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.arrowRightImage,
+.arrowLeftImage {
+  width: 40px;
+  height: 40px;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  top: 15rem;
+}
+
+.arrowLeft {
+  left: 0.5rem;
+}
+
+.arrowRight {
+  left: 90rem;
+}
+
+.carrosselItemInfoName {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  left: 17rem;
+  bottom: 13rem;
+}
+
+.carrosselItemDescriptionConteiner {
+  width: auto;
+  height: 9px;
+  left: 20rem;
+  bottom: 15rem;
+  position: relative;
+  color: white;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.carrosselItemInfoCategoryConteiner {
+  display: inline-table;
+  position: relative;
+  border: 1.5px #aeaeb3 solid;
+  border-radius: 5px;
+  width: 5rem;
+  left: 19rem;
+  bottom: 5rem;
+}
+
+.carrosselItemInfoCategory {
+  position: relative;
+  color: white;
+  font-family: Inter;
+  text-align: center;
+  font-size: large;
+}
+
+/*.brawlStars{
+    position: absolute;
+    height: 25rem;
+    width: 37rem;
+    background-color: #3F3F46;
+    border-radius: 50px;
+}
+
+.brawlStars {
+    left: 8rem;
+}
+
+
+.logoBrawl,
+.logoForti {
+    width: 224.52px;
+    height: 319.06px;
+    left: 5rem;
+    padding: 2.5rem;
+    border-radius: 70px;
+}*/
+
+/*.description{
+    bottom: 40px;
+    width: 244px;
+    height: 52px;
+    opacity: 0.50;
+    color: #FCFCFD;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+}*/

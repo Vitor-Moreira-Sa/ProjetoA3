@@ -1,0 +1,52 @@
+.name {
+    top: 9rem;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 2rem;
+}
+
+.Mof {
+    position: absolute;
+    top: 13rem;
+    right: 4rem;
+}
+
+.categoMof {
+    display: inline-table;
+    position: relative;
+    border: 1.5px #aeaeb3 solid;
+    border-radius: 5px;
+    width: 20rem;
+    left: 2rem;
+    top: 15rem;
+}
+
+.categorias {
+    position: relative;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    font-size: large;
+}
+
+.descrition {
+    position: absolute;
+    top: 24rem;
+    left: 45px;
+    font-family: Inter;
+    opacity: 0.50;
+    color: #FCFCFD;
+}
+
+.infoMof {
+    position: absolute;
+    background-color: #3479E9;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    left: 45px;
+    top: 27rem;
+}

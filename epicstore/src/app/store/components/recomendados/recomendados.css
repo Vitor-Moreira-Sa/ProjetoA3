@@ -1,0 +1,60 @@
+.recomendados {
+    position: relative;
+    top: 60rem;
+    background-color: #181818;
+    height: 55rem;
+}
+
+.inforRecomendados {
+    position: absolute;
+    top: 10rem;
+}
+
+#saiba {
+    position: relative;
+    background-color: #FF891D;
+    border: none;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    left: 2rem;
+    top: 17rem;
+}
+
+.recomendo,
+.batalhas,
+.descricao {
+    color: white;
+    text-align: start;
+}
+
+.batalhas {
+    font-size: 50px;
+}
+
+.generos {
+    position: absolute;
+    width: 150rem;
+}
+
+.genero {
+    font-style: 50px bold;
+    font-family: Inter;
+    font-size: 30px;
+    left: 15rem;
+    color: #BB4EFF;
+}
+
+.descricaoClash {
+    position: absolute;
+    top: 17rem;
+    width: 30rem;
+}
+
+.clashRoyale {
+    position: absolute;
+    top: 1rem;
+    left: 35rem;
+    width: 50rem;
+    height: 50rem;
+}

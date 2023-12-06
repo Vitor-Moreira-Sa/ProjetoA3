@@ -1,0 +1,20 @@
+.rodape {
+    position: relative;
+    top: 78rem;
+    background-color: #7F28B5;
+}
+
+.EpicGames {
+    
+    height: 300px;
+    width: 800px;
+    left: 300px;
+    top: 5rem;
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-size: 12px;
+    font-family: Kokoro;
+    text-transform: uppercase;
+    line-height: 23.40px;
+}

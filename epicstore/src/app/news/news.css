@@ -1,0 +1,373 @@
+body {
+    background-color: #121212;
+    height: auto;
+}
+
+/*.cabecalho {
+    position: relative;
+    width: auto;
+    height: 10rem;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    background-color: transparent;
+    width: 300px;
+    left: 5rem;
+}
+
+.telas {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+#telaH {
+    background-color: black;
+    position: relative;
+    border: none;
+    width: 5rem;
+}
+
+#telaS {
+    background-color: black;
+    position: relative;
+    border: none;
+    left: 10px;
+    width: 5rem;
+}
+
+#telaN {
+    background-color: black;
+    position: relative;
+    border: none;
+    left: 20px;
+    width: 5rem;
+}
+
+.nameT {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+
+#pesquisa {
+    position: absolute;
+    top: 40px;
+}
+
+#caixaDePesquisa {
+    position: relative;
+    background-color: #242424;
+    border: none;
+    left: 750px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#perfil {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+    width: 1rem;
+    top: 20px;
+    right: 10rem;
+}
+
+#carrinho {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 20px;
+    right: 2rem;
+}
+
+.header {
+    width: 94rem;
+    height: 35rem;
+    top: 11rem;
+    background-color: #000;
+}
+
+.carrosselNoticias {
+    position: absolute;
+    top: 50rem;
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 10rem;
+}
+
+.arrowLeft {
+    left: 0.5rem;
+}
+
+.arrowRight {
+    left: 90rem;
+}
+
+.noticias {
+    position: absolute;
+    height: 37rem;
+    width: 78rem;
+    top: 2rem;
+    left: 8rem;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.infoNoticias {
+    position: relative;
+    top: 4rem;
+    width: 26rem;
+    height: 23rem;
+    left: 3rem;
+}
+
+.titulo,
+.not,
+.immortals {
+    color: white;
+    text-align: start;
+}
+
+.titulo {
+    font-style: normal;
+}
+
+.not {
+    font-size: 40px;
+}
+
+.freeFire {
+    font-style: 50px bold;
+    font-family: Inter;
+    font-size: 30px;
+    color: #BB4EFF;
+}
+
+.descricao {
+    color: white;
+}
+
+.imgNot {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+details {
+    position: relative;
+    border: none;
+    left: 39rem;
+    top: 6rem;
+    color: white;
+}
+
+.jogos {
+    position: relative;
+    top: 55rem;
+    left: 2rem;
+}
+
+.game {
+    position: absolute;
+    width: 27.6rem;
+    height: 2rem;
+    top: 20rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #3479E9;
+}
+
+.games {
+    position: absolute;
+    width: 27.6rem;
+    height: 2rem;
+    top: 20rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #000;
+}
+
+.names,
+.mais {
+    position: relative;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+.mais {
+    position: relative;
+    bottom: 1.2rem;
+}
+
+.names {
+    bottom: 0.8rem;
+}
+
+.conteiner {
+    width: 30rem;
+}
+
+.gratis {
+    color: white;
+    font-size: 27px;
+}
+
+.nameGame{
+    color: white;
+}
+
+.hora{
+    color: white;
+    opacity: 0.3;
+}
+
+.estrelas{
+    background-color: transparent;
+}
+
+#mais {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+}
+
+.borda {
+    position: relative;
+    left: 83rem;
+    width: 5.3rem;
+    height: 1.5rem;
+    bottom: 1rem;
+    border-style: groove;
+}
+
+.imgImmortals {
+    position: relative;
+    border-radius: 13px;
+    top: 5rem;
+    left: 2rem;
+
+}
+
+.jogoFamoso {
+    position: relative;
+    height: 39rem;
+    width: 78rem;
+    top: 65rem;
+    left: 8rem;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.famoso {
+    position: absolute;
+    top: 4rem;
+    left: 42rem;
+}
+
+.immortals {
+    font-size: 50px;
+}
+
+.genero {
+    font-style: 50px bold;
+    font-family: Inter;
+    font-size: 30px;
+    color: #BB4EFF;
+}
+
+.generos {
+    position: absolute;
+    width: 30rem;
+}
+
+.descricaoImmortals {
+    position: absolute;
+    top: 20rem;
+    color: white;
+}
+
+.logoGame {
+    width: 130px;
+    height: 170px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0rem;
+}
+
+.infosEpic {
+    background-color: #000;
+    position: relative;
+    top: 80rem;
+    height: 440px;
+}
+
+.apoieUmCriador {
+    width: 446px;
+    height: 310px;
+    left: 10rem;
+    position: relative;
+    top: 3rem;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-family: Kokoro;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 59.40px;
+}
+
+.polTicaDeFanart {
+    left: 39rem;
+    position: relative;
+    bottom: 7rem;
+}
+
+.servicos {
+    left: 70rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+.logoFim {
+    position: relative;
+    background-color: transparent;
+    width: 190px;
+    left: 34rem;
+    bottom: 2rem;
+}
+
+.rodape {
+    position: relative;
+    top: 78rem;
+    background-color: #7F28B5;
+}
+
+.EpicGames {
+    height: 300px;
+    width: 800px;
+    left: 330px;
+    top: 5rem;
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-size: 12px;
+    font-family: Kokoro;
+    text-transform: uppercase;
+    line-height: 23.40px;
+}
+*/

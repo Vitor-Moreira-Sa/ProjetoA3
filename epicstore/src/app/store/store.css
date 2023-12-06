@@ -1,0 +1,394 @@
+body {
+    background-color: #121212;
+    height: auto;
+}
+
+/*.cabecalho {
+    position: relative;
+    width: auto;
+    height: 10rem;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    background-color: transparent;
+    width: 300px;
+    left: 5rem;
+}
+
+.telas {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+#telaH {
+    background-color: black;
+    position: relative;
+    border: none;
+    width: 5rem;
+}
+
+#telaS {
+    background-color: black;
+    position: relative;
+    border: none;
+    left: 10px;
+    width: 5rem;
+}
+
+#telaN {
+    background-color: black;
+    position: relative;
+    left: 20px;
+    width: 5rem;
+}
+
+.nameT {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+
+#pesquisa {
+    position: absolute;
+    top: 40px;
+}
+
+#caixaDePesquisa {
+    position: relative;
+    background-color: #242424;
+    border: none;
+    left: 750px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#perfil {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+    width: 1rem;
+    top: 20px;
+    right: 10rem;
+}
+
+#carrinho {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 20px;
+    right: 2rem;
+}
+
+.compra {
+    position: relative;
+    top: 12rem;
+    background-color: #212121;
+}
+
+.cover {
+    position: absolute;
+    left: 10rem;
+    border-radius: 40px;
+}
+
+.tableCatego {
+    position: absolute;
+    padding-left: 18rem;
+    top: 27rem;
+}
+
+.categorias {
+    position: relative;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    font-size: small;
+}
+
+.categoAlan {
+    display: inline-table;
+    position: relative;
+    border: 1.5px #aeaeb3 solid;
+    border-radius: 5px;
+    width: 13%;
+    left: 1rem;
+    top: 1rem;
+}
+
+.catalogo {
+    position: absolute;
+    width: 150rem;
+    left: 74rem;
+}
+
+.games {
+    height: 35rem;
+}
+
+.nomes {
+    width: 50rem;
+    left: 10rem;
+    color: white;
+}
+
+.fotos {
+    border-radius: 10px;
+}
+
+.recomendados {
+    position: relative;
+    top: 60rem;
+    background-color: #181818;
+    height: 55rem;
+}
+
+.inforRecomendados {
+    position: absolute;
+    top: 10rem;
+}
+
+#saiba {
+    position: relative;
+    background-color: #FF891D;
+    border: none;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    left: 2rem;
+    top: 17rem;
+}
+
+.recomendo,
+.batalhas,
+.descricao {
+    color: white;
+    text-align: start;
+}
+
+.batalhas {
+    font-size: 50px;
+}
+
+.generos {
+    position: absolute;
+    width: 150rem;
+}
+
+.genero {
+    font-style: 50px bold;
+    font-family: Inter;
+    font-size: 30px;
+    left: 15rem;
+    color: #BB4EFF;
+}
+
+.descricaoClash {
+    position: absolute;
+    top: 17rem;
+    width: 30rem;
+}
+
+.clashRoyale {
+    position: absolute;
+    top: 1rem;
+    left: 35rem;
+    width: 50rem;
+    height: 50rem;
+}
+
+.jogos {
+    width: 100%;
+}
+
+.name4 {
+    position: relative;
+    font-size: 30px;
+    top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.jogo {
+    position: relative;
+    top: 70rem;
+}
+
+.linhaJogos,
+.linhaJogos2,
+.linhaJogos3,
+.linhaJogos4 {
+    position: absolute;
+    left: 42px;
+}
+
+.linhaJogos {
+    top: 100px;
+}
+
+.linhaJogos2 {
+    top: 350px;
+}
+
+.linhaJogos3 {
+    top: 630px;
+}
+
+.linhaJogos4 {
+    top: 900px;
+}
+
+.colunaJogos,
+.colunaJogos2,
+.colunaJogos3 {
+    position: relative;
+    width: 95rem;
+}
+
+.nameGame {
+    position: absolute;
+    top: 2.5rem;
+    left: 10rem;
+    font-size: 20px;
+    color: white;
+}
+
+.epic {
+    position: relative;
+    background-color: #353434;
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    left: 10rem;
+    top: 2rem;
+}
+
+.valor,
+.valorDesc {
+    position: absolute;
+    color: white;
+}
+
+.valor {
+    left: 10rem;
+    top: 6rem;
+}
+
+.posicao {
+    position: relative;
+    color: white;
+    left: 10rem;
+}
+
+#compra {
+    position: relative;
+    background-color: #FF891D;
+    border: none;
+    border-radius: 20px;
+    width: 165px;
+    height: 40px;
+    left: 15rem;
+    top: 7rem;
+}
+
+.desconto {
+    position: relative;
+    background-color: #3479E9;
+    border-radius: 3px;
+    width: 43px;
+    height: 18px;
+    left: 10rem;
+}
+
+.valorTraco {
+    position: absolute;
+    opacity: 0.3;
+    color: #aeaeb3;
+    text-decoration: line-through;
+    top: 7rem;
+    left: 13rem;
+}
+
+.valorDesc {
+    color: white;
+    position: absolute;
+    top: 7rem;
+    left: 17.2rem;
+}
+
+.logoGame {
+    width: 130px;
+    height: 170px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0rem;
+}
+
+.infosEpic {
+    background-color: #000;
+    position: relative;
+    top: 150rem;
+    height: 440px;
+}
+
+.apoieUmCriador {
+    width: 446px;
+    height: 310px;
+    left: 10rem;
+    position: relative;
+    top: 3rem;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    font-family: Kokoro;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 59.40px;
+}
+
+.polTicaDeFanart {
+    left: 39rem;
+    position: relative;
+    bottom: 7rem;
+}
+
+.servicos {
+    left: 70rem;
+    position: relative;
+    bottom: 25rem;
+}
+
+.logoFim {
+    position: relative;
+    background-color: transparent;
+    width: 190px;
+    left: 34rem;
+    bottom: 2rem;
+}
+
+.rodape {
+    position: relative;
+    top: 147rem;
+    background-color: #7F28B5;
+}
+
+.EpicGames {
+    height: 300px;
+    width: 800px;
+    left: 330px;
+    top: 5rem;
+    position: relative;
+    text-align: justify;
+    color: white;
+    font-size: 12px;
+    font-family: Kokoro;
+    text-transform: uppercase;
+    line-height: 23.40px;
+}*/

@@ -1,0 +1,102 @@
+.jogos {
+    width: 100%;
+}
+
+.name4 {
+    position: relative;
+    font-size: 30px;
+    top: 2rem;
+    text-align: center;
+}
+
+.jogo {
+    position: relative;
+    top: 70rem;
+}
+
+.linhaJogos,
+.linhaJogos2,
+.linhaJogos3,
+.linhaJogos4 {
+    position: absolute;
+    left: 42px;
+}
+
+.linhaJogos {
+    top: 100px;
+}
+
+.linhaJogos2 {
+    top: 350px;
+}
+
+.linhaJogos3 {
+    top: 630px;
+}
+
+.linhaJogos4 {
+    top: 900px;
+}
+
+.colunaJogos,
+.colunaJogos2,
+.colunaJogos3 {
+    position: relative;
+    width: 95rem;
+}
+
+.nameGame {
+    position: absolute;
+    top: 0rem;
+    left: 10rem;
+    font-size: 20px;
+    color: white;
+}
+
+.valor,
+.valorDesc {
+    position: absolute;
+    color: white;
+}
+
+.valor {
+    left: 10rem;
+    top: 5rem;
+}
+
+#compra {
+    position: relative;
+    background-color: #FF891D;
+    border: none;
+    border-radius: 20px;
+    width: 165px;
+    height: 40px;
+    left: 15rem;
+    top: 7rem;
+}
+
+.desconto {
+    position: relative;
+    background-color: #3479E9;
+    border-radius: 3px;
+    width: 43px;
+    height: 18px;
+    left: 10rem;
+    top: 2rem;
+}
+
+.valorTraco {
+    position: absolute;
+    opacity: 0.3;
+    color: #aeaeb3;
+    text-decoration: line-through;
+    top: 4.5rem;
+    left: 13rem;
+}
+
+.valorDesc {
+    color: white;
+    position: absolute;
+    top: 4.5rem;
+    left: 17.2rem;
+}
