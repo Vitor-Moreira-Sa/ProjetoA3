@@ -76,9 +76,6 @@ module.exports = function (express, db) {
   });
 
   jogos.get(/\/genero\/.*/, (req, res) => {
-    // console.log("url: %s\tbase: %s\toriginal: %s", req.url, req.baseUrl, req.originalUrl);
-    // url: /genero/Fantasia   base: /jogos    original: /jogos/genero/Fantasia
-    // http://localhost:3000/jogos/genero/Fantasia
 
     const genero = decodeURIComponent(
       req.url.slice(req.url.lastIndexOf("/") + 1)
